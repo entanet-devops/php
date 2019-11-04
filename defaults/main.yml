@@ -19,5 +19,4 @@ php_packages:
   - php{{php_version}}-mysql
   - php{{php_version}}-xdebug
   - php{{php_version}}-curl
-php_pecl_extensions:
-  - rdkafka
+  
