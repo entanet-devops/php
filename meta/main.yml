@@ -20,6 +20,5 @@ galaxy_info:
 dependencies: 
   - src: entanet_devops.php_7_3_ppa
     version: 2.0
-  - src: https://github.com/geerlingguy/ansible-role-php
+  - src: git+https://github.com/geerlingguy/ansible-role-php
     version: 3.7.0 
-    
