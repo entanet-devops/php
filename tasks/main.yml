@@ -1,1 +1,8 @@
 ---
+
+# There is a bug in ondrej/php where php8-dev has a dependency on php8.1
+- name: Remove php8.1-core when php version is 8.0
+  apt:
+    name: "php8.1-common"
+    state: absent
+  when: php_version == "8.0"
