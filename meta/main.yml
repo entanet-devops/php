@@ -18,7 +18,7 @@ galaxy_info:
     - php
 
 dependencies: 
-  - src: entanet_devops.php_7_3_ppa
+  - src: https://github.com/entanet-devops/php-7-3-ppa
     version: 2.0
-  - src: entanet_devops.ansible_role_php
+  - src: https://github.com/entanet-devops/ansible-role-php
     version: 3.7.0    
