@@ -18,4 +18,5 @@ php_packages:
   - php{{php_version}}-pdo
   - php{{php_version}}-mysql
   - php{{php_version}}-curl
+  - php{{php_version}}-soap
   
