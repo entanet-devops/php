@@ -17,8 +17,9 @@ galaxy_info:
     - entanet
     - php
 
-dependencies: 
+dependencies:
   - src: https://github.com/entanet-devops/php-7-3-ppa
     version: "2.0"
+    when: php_version is match('^7\..*')
   - src: https://github.com/entanet-devops/ansible-role-php
     version: "3.7.0"    
